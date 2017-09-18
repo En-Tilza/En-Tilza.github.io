@@ -37,13 +37,15 @@ $(document).ready(function(){
 */
 
 
-    $('#bymaga').hover(function() {
-        $('#bymaga').each(function() {
-            if ($('#img1').css("background-position")=="0 0") {
-                $('#img1').css("background-position", "0 73px")
-            } else {
-                $('#img1').css("background-position", "0 0")
-            }
-        });
+    var bsgm = ['#bymaga', '#sprei', '#gloves', '#metla']
+    var images = ['#img1', '#img2', '#img3', '#img4']
+    var position = ['0 -73px', '-123px 0', '-152px -82px','-232px 1px']
+    var position2 = ['0 0', '-78px 0', '-78px -82px','-168px 1px']
+    $('.block').each(function(i , value){
+        $(bsgm[value]).hover(function(i, value){
+            $(images[value]).css('background-position', position[value]);
+            },function () {
+            $(images[value]).css('background-position', position2[value]);
+            });
     });
 });
