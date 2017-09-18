@@ -1,0 +1,515 @@
+body {
+	font-size: 16px;
+	font-family: "GothamPro",sans-serif;
+}
+.container {
+	width: 1200px;
+}
+.header {
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.logo {
+	float: left;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+input {
+	background:#003f50 ;
+	color: #fff;
+	width: 60%;
+	outline: 0;
+	border: none;
+	position: relative;
+}
+#lypa {
+	background: url('../images/search.svg');
+	width: 14px;
+	height: 14px;
+	display: block;
+	cursor: pointer;
+}
+#lypa:hover {
+	background-position: 0 -14px;
+}
+.input {
+	background: #003f50;
+	height: 80px;
+	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vvod {
+	background-color: transparent;
+	border: none;
+}
+#ykazatel {
+    background-color: #003f50;
+    float: right;
+    width: 12px;
+    height: 6px;
+    margin-top: 78px;
+    margin-right: -685px;
+    display: none;
+}
+.navbar img {
+	cursor: pointer;
+}
+.navbar {
+	float: right;
+	padding-top: 30px;
+}
+.navbar li{
+	float: left;
+	list-style-type: none;
+	margin-left: 42px;
+}
+.navbar p{
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 4px;
+}
+.navbar a {
+	font-weight: 700;
+	color: #003d4e;
+}
+.navbar a:hover {
+	color: #00ccff;
+	text-decoration: none;
+}
+.section1 {
+	background: url('../img/home.png') no-repeat center / cover;
+	width: 100%;
+}
+.liniya1 {
+	height: 480px;
+	border-left:1px solid #517377;
+}
+.liniya2 {
+	height: 480px;
+	border-left:1px solid #517377;
+	border-right:1px solid #517377;
+}
+.liniya3 {
+	height: 480px;
+	border-right:1px solid #517377;
+}
+.liniya4 {
+	height: 480px;
+	border-right:1px solid #517377;
+}
+.block {
+	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+}
+.block a { 
+	display: block;
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: underline;
+	line-height: 1.2em;
+}
+.block a:hover {
+	text-decoration: none;
+	color: #00ccff;
+}
+#img1 {
+	background: url('../img/tovari+sprite.png');
+	height:73px;
+	width:78px;
+	display: block;
+}
+#img2 {
+	background: url('../img/tovari+sprite.png');
+	background-position: -78px 0;
+	height:81px;
+	width:45px;
+	display: block;
+}
+#img3 {
+	background: url('../img/tovari+sprite.png');
+	background-position: -78px -81px;
+	height:81px;
+	width:74px;
+	display: block;
+}
+#img4 {
+	background: url('../img/tovari+sprite.png');
+	background-position: -168px 1px;
+	height:82px;
+	width:64px;
+	display: block;
+}
+.panel_zakaza {
+	background: #00cbfe;
+	width: 100%;
+	height: 120px;
+	display: block;
+}
+.o_zakaze {
+    color: #fff;
+    float: left;
+    padding: 41px 0 0 60px;
+    font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.akciya {
+	font-weight: 700;
+	font-size: 18px;
+}
+.zakaz {
+	font-size: 14px;
+    background: #fff;
+    color: #00cbfe;
+    border-radius: 4px;
+    padding: 13px 46px 13px 46px;
+    float: right;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 35px 40px 0 0;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+}
+.zakaz:hover {
+	border: 2px solid #ffffff;
+	background-color: #00cbff;
+	color: #fff;
+	text-decoration: none;
+}
+.section2 {
+	background: #f2f2f2;
+	width: 100%;
+}
+.proizvoditel li{
+	background-color: #fff; 
+	width: 33.33%;
+	max-height: 287px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border: 1px solid #f2f2f2;  
+	float: left;
+}
+.proizvoditel {
+	padding: 0; margin-top: 1px;
+}
+.h1{
+    margin: 25px 0 0 31px;
+    font-size: 36px;
+	font-weight: 700;
+	line-height: 40px;
+	display: block;
+}
+.p1{
+	margin: 10px 31px 105px 31px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	display: block;
+}
+.proizvoditel img{
+	float: right;
+	margin-right: 25px;
+}
+.proizvoditel span {
+	opacity: 0;
+	color: #fff;
+}
+.lime:hover span {opacity: 1;}
+.lime:hover a {text-decoration: none;}
+.lime {
+	background:#fff url('../img/lime.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+}
+.lime:hover {
+	background: #00ccff; 
+	cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.tork {
+	background:#fff url('../img/tork.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+}
+.tork:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.tork:hover span {opacity: 1;}
+.tork:hover a {text-decoration: none;}
+.viero {
+	background:#fff url('../img/viero.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.viero:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.viero:hover span {opacity: 1;}
+.viero:hover a {text-decoration: none;}
+.grass {
+	background:#fff url('../img/grass.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.grass:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.grass:hover span {opacity: 1;}
+.grass:hover a {text-decoration: none;}
+.СпецСинтез {
+	background:#fff url('../img/СпецСинтез.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.СпецСинтез:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.СпецСинтез:hover span {opacity: 1;}
+.СпецСинтез:hover a {text-decoration: none;}
+.paclan {
+	background:#fff url('../img/paclan.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.paclan:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.paclan:hover span {opacity: 1;}
+.paclan:hover a {text-decoration: none;}
+.klever {
+	background:#fff url('../img/klever.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.klever:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.klever:hover span {opacity: 1;}
+.klever:hover a {text-decoration: none;}
+.kiilto {
+	background:#fff url('../img/kiilto.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.kiilto:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.kiilto:hover span {opacity: 1;}
+.kiilto:hover a {text-decoration: none;}
+.vileda {
+	background:#fff url('../img/vileda.png') no-repeat center;
+	width: 100%;
+	height: 286px;
+    display: block;
+}
+.vileda:hover {
+	background: #00ccff;
+	color: #fff; cursor: pointer;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	position: relative;
+}
+.vileda:hover span {opacity: 1;}
+.vileda:hover a {text-decoration: none;}
+.text {
+	color:#999;
+}
+.text h1 {
+	margin-top: 61px;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 44px;
+}
+.text p {
+	margin-bottom: 28px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+
+}
+#skritiy_text {
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	padding-top: 25px;
+}
+.no {
+	display: none;
+}
+.no:hover {color: #00ccff;}
+.yes:hover {color: #00ccff;}
+.section3 {
+	background: #003f4f;
+	width: 100%;
+}
+.razdel {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+}
+.svyaz span {
+	color: #d4dadc;
+	font-size: 14px;
+	font-weight: 400;
+}
+.section a{
+	color: #d4dadc;
+	font-size: 14px;
+	font-weight: 400;
+}
+.kontakti {
+	width: 100%;
+	height: 180px;
+	border-right: 1px solid #336572 ;
+	margin-top: 39px;
+}
+.svyaz {
+	text-decoration: none;
+	list-style-type: none;
+	float: left; 
+	padding: 0;
+}
+.svyaz li {
+	font-size: 14px;
+	list-style-type: none;
+    margin-bottom: 5px;
+    color:#d5dbdd;
+}
+.svyaz a:hover {
+	color: #00ccff;	
+	text-decoration: none;
+}
+.mail {
+	color:#d5dbdd;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.info1 {
+	padding-left: 30px;
+	margin-top: 35px;
+	float: left;
+}
+.info1 li {
+	font-size: 14px;
+	color:#d5dbdd;
+	list-style-type: none;
+    margin-bottom: 5px;
+}
+.info1 a {
+	color:#d5dbdd;
+}
+.info1 a:hover {
+	color: #00ccff;
+	text-decoration: none;
+}
+.info2 {
+	margin-top: 35px;
+	color:#d5dbdd;
+	float: right;
+}
+.info2 li {
+	font-size: 14px;
+	color:#d5dbdd;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.info2 a {
+	color: #d4dadc;
+	font-size: 14px;
+	font-weight: 400;
+}
+.info2 a:hover {
+	color: #00ccff;
+}
+.zakaz2 {
+	background: #003f50;
+    color: #00ccff;
+    border-radius: 5px;
+    border: 2px solid #00ccff;
+    display: block;
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 12.5px 0 12.5px 0;
+    margin-top: 41px;
+    font-size: 14px;
+	width: 232px;
+}
+.zakaz2:hover {
+	border-radius: 6px;
+	border: 2px solid #ffffff;
+	background-color: #00cbff;
+	color: #fff;
+	text-decoration: none;
+}
+footer {
+	background: #003947;
+	width: 100%;
+	
+}
+.placestart {
+	float: right;
+	color: #1a6781;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 19px;
+}
+.placestart a {
+	color: #1a6781;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+footer a:hover {
+	text-decoration: none;
+}	
+.firma {
+	float:  left;
+	color: #1a6781;
+	margin-top: 19px;
+	font-size: 12px;
+	font-weight: 400;
+}
